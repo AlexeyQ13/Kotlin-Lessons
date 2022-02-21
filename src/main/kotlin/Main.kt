@@ -1,3 +1,7 @@
 fun main(args: Array<String>) {
-    println("Hello world!")
+    var age: Int? = null
+
+    if (age == null) {
+        println("Ты слишком молод )")
+    }
 }
